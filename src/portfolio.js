@@ -1,21 +1,22 @@
+
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  title: 'IK.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
+  name: 'Ishaan Kumar',
   role: 'Front End Engineer',
   picture: 'https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png',
 
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    'Frontend-focused developer with hands-on experience in building full-stack web applications using React.js, Node.js, and modern databases. I enjoy creating clean, responsive user interfaces and translating ideas into reliable, real-world products.',
+resume: `${process.env.PUBLIC_URL}/Ishaan_Kumar_Resume.pdf`,
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/ishaankumar1606',
+    github: 'https://github.com/Ishaan1606'
   },
 }
 
@@ -23,31 +24,15 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'SensAI – AI-Integrated Learning Platform',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    image: 'cleanfolio.png',
+      'SensAI is a full-stack AI-integrated learning platform that helps students enhance their career readiness through AI-powered resume analysis and interview preparation. Built with a responsive frontend and scalable backend, the platform delivers personalized insights to improve learning outcomes and user engagement.',
+    stack: ['FrontEnd - React.js, JavaScript, HTML, CSS, Tailwind CSS   Backend - Node.js, Express.js  DataBase - PostgreSQL   API - OpenAI API Tools-Git, GitHub, Vercel'],
+    sourceCode: 'https://github.com/Ishaan1606/sensaii',
+    livePreview: 'https://sensaii-vwfu.vercel.app/',
+    image: 'https://i.postimg.cc/nLDb4zsx/sensai.png',
   },
-  {
-    name: 'Project 2',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    image: 'https://github.githubassets.com/assets/GitHub-Logo-ee398b662d42.png',
-  },
-  {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
+  
 ]
 
 const skills = [
@@ -69,7 +54,7 @@ const skills = [
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'Ishaankumar059@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
