@@ -1,7 +1,7 @@
 
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
+  homepage: '',
   title: 'IK.',
 }
 
@@ -9,7 +9,7 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Ishaan Kumar',
   role: 'Front End Engineer',
-  picture: 'https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png',
+  picture: 'https://i.postimg.cc/9Ff0x7qk/portfolio-img.png',
 
   description:
     'Frontend-focused developer with hands-on experience in building full-stack web applications using React.js, Node.js, and modern databases. I enjoy creating clean, responsive user interfaces and translating ideas into reliable, real-world products.',
@@ -41,15 +41,14 @@ const skills = [
   'HTML',
   'CSS',
   'JavaScript',
-  'TypeScript',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'Node.js',
+  'MySQL',
+  'Tailwind CSS',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'PostgreSQL',
+  'Github'
+  
 ]
 
 const contact = {
