@@ -10,3 +10,19 @@
 .skills__list-item {
   margin: 0.5em;
 }
+
+
+/* ===== Skills Responsive ===== */
+.skills__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+@media (max-width: 600px) {
+  .skill {
+    font-size: 0.85rem;
+    padding: 0.5rem 0.8rem;
+  }
+}

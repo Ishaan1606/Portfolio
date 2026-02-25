@@ -37,3 +37,16 @@
     margin-left: 0.8em;
   }
 }
+
+
+/* ===== Header Responsive ===== */
+@media (max-width: 600px) {
+  .header {
+    padding: 1rem;
+  }
+
+  .nav__list {
+    gap: 1rem;
+    font-size: 0.9rem;
+  }
+}
